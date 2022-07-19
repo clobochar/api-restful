@@ -9,6 +9,7 @@ PUT - atualizar dados
 DELETE - remover dados
 */
 
-router.get('/products/:id?', ProductController.get) 
+router.get('/products/:id?', ProductController.get)
+router.post('/products', ProductController.post)
 
 module.exports = router
